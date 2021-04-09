@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="290" height="290" viewBox="0 0 290 290">
+  <defs>
+    <ellipse id="ellipse-1" cx="145" cy="145" rx="145" ry="145"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="290" height="290" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-1"/>
+    </mask>
+    <path id="path-7" fill-rule="evenodd" d="M-1-11v300h285V-11H-1z"/>
+    <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="290" height="290" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-7"/>
+    </mask>
+    <path id="path-10" fill-rule="evenodd" d="M65.5 102.625L145.65625 37l80.15625 65.625V205.75c0 10.35533906-7.9749279 18.75-17.8125 18.75H83.3125c-9.8375721 0-17.8125-8.39466094-17.8125-18.75V102.625z"/>
+  </defs>
+  <g>
+    <use fill="rgb(200,200,200)" xlink:href="#ellipse-1"/>
+    <g mask="url(#mask-2)">
+      <path fill="rgb(172,33,124)" fill-opacity=".75" fill-rule="evenodd" d="M145-8h70c44.15320196 0 80 35.84679804 80 80v70H145V-8z"/>
+      <path fill="rgb(0,128,128)" fill-opacity=".6" fill-rule="evenodd" d="M-5 142h150v150H75c-44.15320196 0-80-35.84679804-80-80v-70z"/>
+      <path fill="rgb(245,123,32)" fill-opacity=".75" fill-rule="evenodd" d="M75-8h70v150H-5V72C-5 27.84679804 30.84679804-8 75-8z"/>
+      <path fill="rgb(51,153,255)" fill-opacity=".75" fill-rule="evenodd" d="M145 142h150v70c0 44.15320196-35.84679804 80-80 80h-70V142z"/>
+      <g>
+        <use fill="none" xlink:href="#path-7"/>
+        <g mask="url(#mask-8)">
+          <g>
+            <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M65.5 102.625L145.65625 37l80.15625 65.625V205.75c0 10.35533906-7.9749279 18.75-17.8125 18.75H83.3125c-9.8375721 0-17.8125-8.39466094-17.8125-18.75V102.625z"/>
+            <g>
+              <use fill="rgb(0,0,0)" fill-opacity="0" xlink:href="#path-10"/>
+              <use fill-opacity="0" stroke="rgb(79,79,79)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".8" stroke-width="8" xlink:href="#path-10"/>
+            </g>
+          </g>
+          <g>
+            <path fill="rgb(176,44,130)" fill-opacity=".25" fill-rule="evenodd" d="M118.9375 224.5v-93.75h53.4375v93.75"/>
+            <g>
+              <path fill="none" d="M118.9375 224.5v-93.75h53.4375v93.75"/>
+              <path fill="none" stroke="rgb(114,114,114)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" d="M118.9375 224.5v-93.75h53.4375v93.75"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect width="285" height="300" x="-1" y="1" fill="none" rx="0" ry="0"/>
+    </g>
+  </g>
+</svg>
